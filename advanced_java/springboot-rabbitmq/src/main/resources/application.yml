@@ -1,0 +1,7 @@
+spring:
+  rabbitmq: 
+    host: 192.168.43.80
+    port: 5672
+    username: root
+    password: 123456
+    virtualHost: /vhost_mmr

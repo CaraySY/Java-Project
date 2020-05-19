@@ -1,0 +1,11 @@
+package com.wsy.lambda;
+
+public class Callable {
+
+	public static void main(String[] args) {
+		
+		CallableTest<Integer> call=new CallableTest() {
+			
+		};
+	}
+}

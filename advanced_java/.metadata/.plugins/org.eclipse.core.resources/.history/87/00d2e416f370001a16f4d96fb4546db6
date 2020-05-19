@@ -1,0 +1,14 @@
+package com.wsy.step_one.chapter11;
+
+/**
+ * 	创建线程组
+ * @author Administrator
+ *
+ */
+public class CreateThreadGroup {
+
+	public static void main(String[] args) {
+		
+		
+	}
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+<typeInfo handle="=Java8API/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.util.stream(Collectors.class[Collectors" modifiers="49" timestamp="1578133639484"/>
+<typeInfo handle="=springboot-rabbitmq/D:\/JavaEETools\/Repository\/com\/fasterxml\/jackson\/core\/jackson-databind\/2.10.3\/jackson-databind-2.10.3.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/test=/true=/=/maven.groupId=/com.fasterxml.jackson.core=/=/maven.artifactId=/jackson-databind=/=/maven.version=/2.10.3=/=/maven.scope=/test=/&lt;com.fasterxml.jackson.databind.deser.impl(PropertyValue$Map.class[Map" modifiers="24" timestamp="1585624156845"/>
+<typeInfo handle="=Java8API/C:\/Program Files\/Java\/jre1.8.0_231\/lib\/rt.jar=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/javase\/8\/docs\/api\/=/&lt;java.util(Map.class[Map" modifiers="1537" timestamp="1578133639484"/>
+</typeInfoHistroy>

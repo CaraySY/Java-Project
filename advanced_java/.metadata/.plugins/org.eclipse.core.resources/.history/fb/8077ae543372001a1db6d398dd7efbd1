@@ -1,0 +1,31 @@
+package com.wsy.common;
+
+import java.io.IOException;
+import java.util.concurrent.TimeoutException;
+
+import com.rabbitmq.client.Connection;
+import com.rabbitmq.client.ConnectionFactory;
+
+/**
+ * 	connect to RabbitMQ
+ * @author Administrator
+ *
+ */
+public class ConnectionUtils {
+
+	public static Connection getConnection() throws IOException, TimeoutException {
+		
+		// define a connection factory
+		ConnectionFactory factory=new ConnectionFactory();
+		// set host IP address
+		factory.setHost("192.168.43.80");
+		// set protocol port
+		factory.setPort(5672);
+		// set virtual host
+		factory.setVirtualHost("/vhost_mmr");
+		factory.setUsername("root");
+		factory.setPassword("root");
+		// return a connection
+		return factory.newConnection();
+	}
+}

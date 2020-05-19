@@ -1,0 +1,29 @@
+package com.wsy.step_one.chapter3;
+
+public class DaemonThread2 {
+
+	public static void main(String[] args) throws InterruptedException {
+		
+		Thread t=new Thread(()->{
+			
+			Thread innerThread=new Thread(()->{
+				
+				try {
+					Thread.sleep(100_000);
+				} catch (InterruptedException e) {
+					e.printStackTrace();
+				}
+			});
+			innerThread.setDaemon(true); //设置为守护线程，当外部线程关闭后，可以不用手动关闭守护线程
+			innerThread.start();
+			try {
+				Thread.sleep(1_000);
+				System.out.println("Thread t finishing...");
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
+		});// new 状态
+		//t.setDaemon(true);
+		t.start();//runnable 状态  然后 -> running|block|dead
+	}
+}

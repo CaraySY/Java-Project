@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.wsy.lambda.Callable&apos; to &apos;CallableTest&apos;&#x0D;&#x0A;- Original project: &apos;Java8API&apos;&#x0D;&#x0A;- Original element: &apos;com.wsy.lambda.Callable&apos;&#x0D;&#x0A;- Renamed element: &apos;com.wsy.lambda.CallableTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Callable&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.wsy.lambda{Callable.java[Callable" matchStrategy="1" name="CallableTest" qualified="false" references="true" similarDeclarations="false" stamp="1586875160999" textual="false" version="1.0"/>
+</session>
